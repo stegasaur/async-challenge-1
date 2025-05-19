@@ -1,7 +1,7 @@
 # Async Challenge - Intermediate 3 - ECS
 
 ### Brief
-ExplodeMe Inc is deploying a new service. It is a containerized web server that will be running on ECS Fargate. When it is deployed, the containers keep dying. It is your job to figure out why and fix it. Ultimately, the containers should be running and accessible via the load balancer. Visiting the hostname given by the Terraform stack output alb_dns_name should return "Hello World".
+ExplodeMe Inc is deploying a new service. It is a containerized web server that will be running on ECS Fargate. When it is deployed, the containers keep dying. It is your job to figure out why and fix it. Ultimately, the ECS service should reach a steady state with 2 tasks running.
 
 ### Setup
 1. Clone this repo

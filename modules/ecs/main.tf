@@ -277,7 +277,7 @@ resource "aws_ecs_service" "app" {
   launch_type                        = "FARGATE"
   enable_execute_command             = true
   enable_ecs_managed_tags = true
-  health_check_grace_period_seconds  = 60
+  health_check_grace_period_seconds  = 30
   availability_zone_rebalancing = "ENABLED"
 
   propagate_tags                     = "SERVICE"
